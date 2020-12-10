@@ -3,6 +3,8 @@ import hashlib
 file1 = './hash_comparator/file1.txt'
 file2 = './hash_comparator/file2.txt'
 
+print("-"*60)
+
 
 hash1 = hashlib.new('ripemd160')
 hash1.update(open(file1,'rb').read())
